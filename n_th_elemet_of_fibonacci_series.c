@@ -8,6 +8,7 @@ int fibonacci(int n)
 
     else if (n == 2)
         return 1;
+   
     else
     {
         return fibonacci(n - 1) + fibonacci(n - 2);
@@ -20,7 +21,15 @@ int main()
 
     printf("Enter the position: ");
     scanf("%d", &n);
-    printf("Fibonacci term (%d)= %d\n", n, fibonacci(n));
+    if (n <= 0)
+    {
+        printf("Please enter a positive integer greater than 0.\n");
+        return 1;
+    }
+    else
+    {
+        printf("Fibonacci term (%d)= %d\n", n, fibonacci(n));
+    }
 
     return 0;
 }
