@@ -11,7 +11,7 @@ int main()
     {
         rem = num % 10;          // Get the last digit
         sum = sum + rem;   // Add the last digit to sum
-        rev = rev * 10 + rem;  // Build the reversed number
+        rev = rev * 10 + rem;  // Build the reversed number 
         num = num / 10;   // Remove the last digit from num
     }
     printf("\n Sum of digits= %d", sum);    // Print the sum of digits
