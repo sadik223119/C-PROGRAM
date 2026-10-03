@@ -1,5 +1,5 @@
 // 	To read a number, find the sum of the digits, reverse the number and check it for palindrome.
-#include <stdio.h> 
+#include <stdio.h> // Include the standard input-output library for using printf and scanf functions
 int main()
 {
     int num, orgnum;
