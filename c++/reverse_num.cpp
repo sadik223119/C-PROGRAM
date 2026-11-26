@@ -18,6 +18,7 @@ int main()
     }
     else
         cout << "\n The number is a non palindrome";
+
     cout << "\n The reverse number is: " << rev;
     return 0;
 }
